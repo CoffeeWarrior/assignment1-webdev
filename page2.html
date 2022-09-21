@@ -1,0 +1,58 @@
+
+<head>
+    <!-- General meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>page2</title>
+
+    <link rel="stylesheet" type="text/css" href="css/page2.css">
+</head>
+<body>
+    <h1>hello this is page 2 (h1 tag)</h1>
+    <h3>this is an h3 tag</h3>
+    <div class="link">
+      <a href="index.html">home</a>
+    </div>
+    <div class="link">
+      <a href="page1.html">page1</a>
+    </div>
+    <p style="color: black;">
+        this is text:
+        abacdfpeoijapagkj4wegkjp
+        aghjwpq4gjwagpjagd
+        asfjlqpjfeqj4wgd
+        kjkaqgplqg4hgFv qrwkfqpwgq34kgpe jfgprwg qp4gjkqp3o4kjgpoarehjgoerhbpmv;lre gjqpjgkpjq43pg
+        qgjpqwrgjawlpkgj rpvjag pwajg plrjg pq
+
+    </p>
+    <button onclick="toggleTextColor()">toggle color</button>
+    <!-- <img src="img/red-fox.jpeg" alt="fox"> -->
+    <h1>Hello</h1>
+    <img src="img/man1.png" alt="a crying man">
+    <p style="color: black;">A crying man</p>
+    <img src="img/man2.png" alt="2 crying men">
+    <p style="color: black;">2 crying men</p>
+    <img src="img/man3.png" alt="3 crying men">
+    <p style="color: black;">3 crying men</p>
+    <table>
+        <tr>
+          <th>this is a table</th>
+          <th>I hate tables</th>
+        </tr>
+        <tr>
+          <td>1</th>
+          <td>2</th>
+        </tr>
+      </table>
+    <script>
+        function toggleTextColor(){
+            colorMap =  {
+                "black": "green",
+                "green": "black"
+            }
+            const color = document.querySelectorAll('p').forEach(elem => elem.style.color = colorMap[elem.style.color]) //how to I toggle color here
+        }
+
+    </script>
+</body>

@@ -9,12 +9,34 @@
     <link rel="stylesheet" type="text/css" href="css/page2.css">
 </head>
 <body>
-    <h1>hello this is page 2</h1>
+    <h1>hello this is page 2 (h1 tag)</h1>
+    <h3>this is an h3 tag</h3>
     <div class="link">
       <a href="index.html">home</a>
     </div>
     <div class="link">
       <a href="page1.html">page1</a>
     </div>
+    <p style="color: black;">
+        this is text:
+        abacdfpeoijapagkj4wegkjp
+        aghjwpq4gjwagpjagd
+        asfjlqpjfeqj4wgd
+        kjkaqgplqg4hgFv qrwkfqpwgq34kgpe jfgprwg qp4gjkqp3o4kjgpoarehjgoerhbpmv;lre gjqpjgkpjq43pg
+        qgjpqwrgjawlpkgj rpvjag pwajg plrjg pq
+
+    </p>
+    <button onclick="toggleTextColor()">toggle color</button>
     <!-- <img src="img/red-fox.jpeg" alt="fox"> -->
+
+    <script>
+        function toggleTextColor(){
+            colorMap =  {
+                "black": "green",
+                "green": "black"
+            }
+            const color = document.querySelectorAll('p').forEach(elem => elem.style.color = colorMap[elem.style.color]) //how to I toggle color here
+        }
+
+    </script>
 </body>

@@ -16,5 +16,22 @@
     <div class="link">
       <a href="page2.html">page2</a>
     </div>
+    <p style="color: black;">
+      text hello this is text words are hard to put together in the form of a sentence ipsum lorem jk I dont actually speak latin that is for nerds
+
+  </p>
+  <button onclick="toggleTextColor()">toggle color</button>
+  <!-- <img src="img/red-fox.jpeg" alt="fox"> -->
+
+  <script>
+      function toggleTextColor(){
+          colorMap =  {
+              "black": "red",
+              "red": "black"
+          }
+          const color = document.querySelectorAll('p').forEach(elem => elem.style.color = colorMap[elem.style.color]) //how to I toggle color here
+      }
+
+  </script>
     <!-- <img src="img/red-fox.jpeg" alt="fox"> -->
 </body>

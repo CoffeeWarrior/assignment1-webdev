@@ -1,6 +1,8 @@
 Assignment #1 
 Due Date: 09/29/2022
 
+[link to github pages](https://coffeewarrior.github.io/assignment1-webdev/)
+
 A link to your GitHub repo should be submitted to Blackboard by 11:59 PM
 
 All group members should submit to Blackboard the repository they worked on 
